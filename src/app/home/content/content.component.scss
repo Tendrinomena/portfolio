@@ -1,0 +1,63 @@
+.home-page{
+  background-color: #fff;
+  background-image: url("/assets/images/background.png");
+  background-size: cover;
+  height: 100vh;
+
+}
+.home-content{
+  margin: 10% 10% 0 10%;
+}
+.home-content>.container{
+  height: 100%;
+  width: 100%;
+}
+
+/*---text style---*/
+.welcome-text{
+  font-weight: 700;
+  font-size: 1.3em;
+  font-family: 'Inria Serif', serif;
+}
+.hello-text{
+  font-weight: 700;
+  font-size: 64px;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.button-hiring{
+  font-size: 18px;
+  border-radius: 5px;
+  width: 35%;
+  height: 15%;
+  box-shadow: none;
+  border-color: none;
+}
+.btn-1{
+  background-color: #D20303;
+  border-color: #D20303;
+  color: white;
+}
+.btn-2{
+  background-color: #EFCBCB;
+  border-color: #EFCBCB;
+  color: black;
+}
+
+
+.hl{
+  border-bottom: 2px solid black;
+  width: 150px;
+}
+.line-text{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.image-profile{
+  width: 80%;
+  height: auto;
+}
