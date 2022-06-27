@@ -8,13 +8,17 @@ import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './home/header/header.component';
 import { ContentComponent } from './home/content/content.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { OneProjectComponent } from './projects/one-project/one-project.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    ContentComponent
+    ContentComponent,
+    ProjectsComponent,
+    OneProjectComponent
   ],
   imports: [
     BrowserModule,
